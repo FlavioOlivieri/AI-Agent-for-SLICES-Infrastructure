@@ -80,22 +80,36 @@ Interfaces with the Model Registry System for data sharing and provenance.
 
 ## 🚀 Getting Started
 
-*(Add instructions on how to set up the environment, install requirements, configure the `.env` file, and run the pipeline).*
-
 ### Prerequisites
-* 
-* 
+* Create an account and a project on SLICES Portal
+* Create a .env file like this in the root directory
+```bash
+SLICES_USER=
+SLICES_PASS=
+SSH_KEY_PATH=
+LLM_MODEL=
+LLM_API_KEY=
+LLM_BASE_URL=
+MRS_CLI_CLIENT_ID=
+MRS_CLI_CLIENT_SECRET=
+MRS_CLI_USERNAME=
+MRS_CLI_PASSWORD=
+```
 
 ### Installation
 ```bash
-# Add installation commands here
-```
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate
 
-### Configuration
-1. Create a `.env` file in the root directory.
-2. Add your credentials (SLICES, SSH keys, LLM API keys):
-```env
-# Add environment variables example here
+# Install the libraries from requirements.txt file
+pip install -r requirements.txt
+
+# Install SLICES CLI
+pip install slices-cli --extra-index-url=https://doc.slices-ri.eu/pypi/
+
+# Install SLICES CLI DM library
+pip install slices-cli-dm --index-url https://gitlab.inria.fr/api/v4/projects/65212/packages/pypi/simple --extra-index-url=https://doc.slices-ri.eu/pypi/
 ```
 
 ### Usage
@@ -107,4 +121,4 @@ Interfaces with the Model Registry System for data sharing and provenance.
 **Authors & Credits:**
 * Prof. Serge Fdida - serge.fdida@lip6.fr
 * Flavio Olivieri - flavio.olivieri@lip6.fr
-* Sorbonne Université - Sciences
+* Sorbonne Université - Sciences LIP6 Laboratory
