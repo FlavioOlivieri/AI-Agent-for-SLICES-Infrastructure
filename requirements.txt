@@ -1,0 +1,13 @@
+mcp
+python-dotenv
+beautifulsoup4
+requests
+boto3
+botocore
+mlflow
+numpy
+pandas
+scikit-learn
+openai
+pydantic
+httpx
