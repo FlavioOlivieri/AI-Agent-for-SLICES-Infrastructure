@@ -81,7 +81,8 @@ Interfaces with the Model Registry System for data sharing and provenance.
 ## 🚀 Getting Started
 
 ### Prerequisites
-* Create an account and a project on SLICES Portal
+* Create an account and a project on SLICES Portal (https://doc.slices-ri.eu/SupportingServices/getanaccount.html)
+* Validate your account for Post5G Blueprint (https://doc.slices-ri.eu/BlueprintServices/beyond5G/preparation.html)
 * Create a .env file like this in the root directory
 ```bash
 SLICES_USER=
@@ -114,8 +115,13 @@ pip install slices-cli-dm --index-url https://gitlab.inria.fr/api/v4/projects/65
 
 ### Usage
 ```bash
-# Add run commands here
+slices auth login
+slices project use <project_name>
+python3 run_pipeline.py
 ```
+
+### About
+https://doc.slices-ri.eu/index.html
 
 ---
 **Authors & Credits:**
