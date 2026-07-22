@@ -1,5 +1,4 @@
 # AI-Agent-for-SLICES-Infrastructure
-Intent based AI Agent that create, configure and deploy an experiment on SLICES infrastructure 
 
 ![SLICES Infrastructure](https://img.shields.io/badge/Infrastructure-SLICES-blue)
 ![Architecture](https://img.shields.io/badge/Architecture-MCP_Protocol-orange)
