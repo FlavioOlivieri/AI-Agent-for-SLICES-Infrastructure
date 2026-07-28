@@ -120,6 +120,13 @@ slices project use <project_name>
 python3 run_pipeline.py
 ```
 
+### Intent Examples
+```bash
+Create a new experiment named testfull3 under project test-agent-mlops. Configure it with standard-2-2 node, book a resource on POS calendar from 09:00 to 10:00 today. Get the experiment, launch it, and generate anomaly traffic.
+
+Create a BI VM named mlops-server for experiment testfull3. Copy /tmp/anomaly_log.csv into it. Deploy the MLOps stack, train a classification model with target column status, and publish the training results to MRS.
+```
+
 ### About
 https://doc.slices-ri.eu/index.html
 
